@@ -116,7 +116,6 @@ body{
 
 @media screen and (max-width: 768px){
     .div-general-foto .div-general-imagen{
-        position: absolute;
         width: 100vw;
     }
 
@@ -125,7 +124,6 @@ body{
     }
 
     .div-general-texto .div-texto-centro{
-        position: absolute;
         width: 100vw;
     }
 
