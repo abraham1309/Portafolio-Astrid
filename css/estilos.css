@@ -16,6 +16,11 @@ body{
     font-size: 20px !important;
 }
 
+ul li.activo a{
+    color: #fff !important;
+    background-color: brown;
+}
+
 /*Estilos para el inicio*/
 .div-color-fondo{
     position: absolute;
@@ -83,6 +88,7 @@ body{
 .div-general-texto .div-texto-centro .div-nombre h1{
     color: #fff;
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     font-size: 60px;
 }
 
@@ -111,10 +117,87 @@ body{
 .seccion-sobre-mi{
     width: 100vw;
     height: 100vh;
-    background-color: brown;
+    background-color: #000;
 }
 
-@media screen and (max-width: 768px){
+
+.seccion-sobre-mi .div-general-text{
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.seccion-sobre-mi .div-general-text .div-titulo{
+    display: flex;
+    width: 80%;
+    margin-top: 12%;
+    margin-bottom: 11%;
+}
+
+.seccion-sobre-mi .div-general-text .div-titulo h1{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.seccion-sobre-mi .div-general-text .div-titulo h1:last-child{
+    font-family: 'Poppins', sans-serif;
+    color: brown;
+
+}
+
+.seccion-sobre-mi .div-general-text .div-text{
+    width: 80%;
+}
+
+.seccion-sobre-mi .div-general-text .div-text .div-subtitulo{
+    display: flex;
+}
+
+.seccion-sobre-mi .div-general-text .div-text h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: brown;
+}
+
+.seccion-sobre-mi .div-general-text .div-text h2:last-child{
+    color: #fff;
+}
+
+.seccion-sobre-mi .div-general-text .div-text p{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 25px;
+}
+
+.seccion-sobre-mi .div-general-img .div-imagen{
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    width: 100%;
+    background-color: #000;
+}
+
+.seccion-sobre-mi .div-general-img .div-imagen img{
+    width: 80%;
+    margin-bottom: 5%;
+}
+
+.seccion-sobre-mi .div-general-img .div-fondo-imagen{
+    height: 100vh;
+    background: url(../imagenes/Astrid_sobre_mi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+@media screen and (max-width: 767px){
     .div-general-foto .div-general-imagen{
         width: 100vw;
     }
@@ -130,6 +213,33 @@ body{
     .div-general-texto .div-redes, .div-contacto{
         display: none;
     } 
+
+    /*Responsive para la seccion de "sobre mi"*/
+
+    .seccion-sobre-mi{
+        height: auto;
+    }
+    
+
+    .seccion-sobre-mi .div-general-img .div-imagen{
+        display: flex;
+    }
+
+    .seccion-sobre-mi .div-general-img .div-fondo-imagen{
+        display: none;
+    }
+
+    .seccion-sobre-mi .div-general-text{
+        height: auto;
+        padding-bottom: 4%;
+    }
+
+    .seccion-sobre-mi .div-general-text .div-titulo{
+        display: flex;
+        width: 80%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -160,6 +270,34 @@ body{
     
     .div-general-texto .div-texto-centro .div-animacion .oficio{
         font-size: 20px;
+    }
+
+    /*Responsive para la seccion de "sobre mi"*/
+    .seccion-sobre-mi .div-general-text .div-titulo h1{
+        font-size: 45px;
+    }
+
+    .seccion-sobre-mi .div-general-text .div-text h2{
+        font-size: 30px;
+    }
+
+    .seccion-sobre-mi .div-general-text .div-text p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    /*Responsive para la seccion de "sobre mi"*/
+    .seccion-sobre-mi .div-general-text .div-titulo h1{
+        font-size: 40px;
+    }
+
+    .seccion-sobre-mi .div-general-text .div-text h2{
+        font-size: 25px;
+    }
+
+    .seccion-sobre-mi .div-general-text .div-text p{
+        font-size: 19px;
     }
 }
 
