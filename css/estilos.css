@@ -277,7 +277,7 @@ ul li.activo a{
     z-index: 1;
 }
 
-.seccion-servicios .div-general-servicio .div-servicio .div-icon:hover{
+.seccion-servicios .div-general-servicio .div-servicio:hover>.div-icon{
     box-shadow:0px 0px 0px 400px #c70039 ;
 }
 
