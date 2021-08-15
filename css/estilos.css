@@ -18,7 +18,7 @@ body{
 
 ul li.activo a{
     color: #fff !important;
-    background-color: brown;
+    background-color: #c70039;
 }
 
 /*Estilos para el inicio*/
@@ -110,7 +110,7 @@ ul li.activo a{
 }
 
 .div-general-texto .div-texto-centro .div-nombre .h1-rojo{
-    color: brown;
+    color: #c70039;
 }
 
 /*Estilos para la seccion de sobre mi*/
@@ -146,7 +146,7 @@ ul li.activo a{
 
 .seccion-sobre-mi .div-general-text .div-titulo h1:last-child{
     font-family: 'Poppins', sans-serif;
-    color: brown;
+    color: #c70039;
 
 }
 
@@ -161,7 +161,7 @@ ul li.activo a{
 .seccion-sobre-mi .div-general-text .div-text h2{
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
-    color: brown;
+    color: #c70039;
 }
 
 .seccion-sobre-mi .div-general-text .div-text h2:last-child{
@@ -196,6 +196,109 @@ ul li.activo a{
     background-position: center center;
 }
 
+/*Estilos para la seccion de servicios*/
+
+.seccion-servicios{
+    height: auto;
+    width: 100vw;
+    padding-bottom: 5%;
+    background-color: #000;
+
+}
+
+.seccion-servicios .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.seccion-servicios .div-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.seccion-servicios .div-titulo .div-h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.seccion-servicios .div-titulo .div-h2 h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #c70039;
+}
+
+.seccion-servicios .div-titulo .div-h2 h2:last-child{
+    color: #fff;
+}
+
+.seccion-servicios .div-general-servicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.seccion-servicios .div-general-servicio .div-servicio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 85%;
+    height: 400px;
+    margin-top: 5%;
+    background-color: #191919;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.seccion-servicios .div-general-servicio .div-servicio .div-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+    background-color: #c70039;
+    margin-top: 5%;
+    width: 85px;
+    height: 85px;
+
+    border: 0px solid #c70039;
+    box-shadow: 0px 0px 0px 0px #c70039;
+    transition: all .8s ease;
+}
+
+.seccion-servicios .div-general-servicio .div-servicio .div-icon i{
+    font-size: 60px;
+    color: #fff;
+    z-index: 1;
+}
+
+.seccion-servicios .div-general-servicio .div-servicio .div-icon:hover{
+    box-shadow:0px 0px 0px 400px #c70039 ;
+}
+
+
+.seccion-servicios .div-general-servicio .div-servicio .div-descripcion{
+    width: 95%;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.seccion-servicios .div-general-servicio .div-servicio .div-descripcion h3{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+
+}
+
+.seccion-servicios .div-general-servicio .div-servicio .div-descripcion p{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    
+}
 
 @media screen and (max-width: 767px){
     .div-general-foto .div-general-imagen{
@@ -254,7 +357,7 @@ ul li.activo a{
     
     .div-general-texto .div-texto-centro .div-animacion .oficio{
         font-size: 25px;
-        color: brown;
+        color: #c70039;
     }
     
 }
