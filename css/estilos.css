@@ -124,17 +124,15 @@ ul li.activo a{
 .seccion-sobre-mi .div-general-text{
     height: 100vh;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
 .seccion-sobre-mi .div-general-text .div-titulo{
     display: flex;
     width: 80%;
-    margin-top: 12%;
-    margin-bottom: 11%;
+    padding-bottom: 10%;
 }
 
 .seccion-sobre-mi .div-general-text .div-titulo h1{
@@ -205,6 +203,7 @@ ul li.activo a{
     background-color: #000;
 
 }
+
 
 .seccion-servicios .row{
     display: flex;
@@ -300,120 +299,86 @@ ul li.activo a{
     
 }
 
-@media screen and (max-width: 767px){
-    .div-general-foto .div-general-imagen{
-        width: 100vw;
-    }
-
-    .div-general-foto .div-blanco{
-        display: none;
-    }
-
-    .div-general-texto .div-texto-centro{
-        width: 100vw;
-    }
-
-    .div-general-texto .div-redes, .div-contacto{
-        display: none;
-    } 
-
-    /*Responsive para la seccion de "sobre mi"*/
-
-    .seccion-sobre-mi{
-        height: auto;
-    }
-    
-
-    .seccion-sobre-mi .div-general-img .div-imagen{
-        display: flex;
-    }
-
-    .seccion-sobre-mi .div-general-img .div-fondo-imagen{
-        display: none;
-    }
-
-    .seccion-sobre-mi .div-general-text{
-        height: auto;
-        padding-bottom: 4%;
-    }
-
-    .seccion-sobre-mi .div-general-text .div-titulo{
-        display: flex;
-        width: 80%;
-        margin-top: 10%;
-        margin-bottom: 5%;
-    }
+/*Estilos para la seccion de proyectos*/
+.seccion-proyectos{
+    height: auto;
+    width: 100vw;
+    background-color: #000;
 }
 
-@media screen and (max-width: 500px){
-    .div-general-texto .div-texto-centro .div-nombre h1{
-        font-size: 50px;
-    }
-
-    .div-general-texto .div-texto-centro .div-animacion{
-        font-size: 25px;
-        color: #fff;
-    }
-    
-    .div-general-texto .div-texto-centro .div-animacion .oficio{
-        font-size: 25px;
-        color: #c70039;
-    }
-    
+.seccion-proyectos .div-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
 }
 
-@media screen and (max-width: 400px){
-    .div-general-texto .div-texto-centro .div-nombre h1{
-        font-size: 40px;
-    }
-
-    .div-general-texto .div-texto-centro .div-animacion{
-        font-size: 20px;
-    }
-    
-    .div-general-texto .div-texto-centro .div-animacion .oficio{
-        font-size: 20px;
-    }
-
-    /*Responsive para la seccion de "sobre mi"*/
-    .seccion-sobre-mi .div-general-text .div-titulo h1{
-        font-size: 45px;
-    }
-
-    .seccion-sobre-mi .div-general-text .div-text h2{
-        font-size: 30px;
-    }
-
-    .seccion-sobre-mi .div-general-text .div-text p{
-        font-size: 20px;
-    }
+.seccion-proyectos .div-titulo .div-h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
 }
 
-@media screen and (max-width: 360px){
-    /*Responsive para la seccion de "sobre mi"*/
-    .seccion-sobre-mi .div-general-text .div-titulo h1{
-        font-size: 40px;
-    }
-
-    .seccion-sobre-mi .div-general-text .div-text h2{
-        font-size: 25px;
-    }
-
-    .seccion-sobre-mi .div-general-text .div-text p{
-        font-size: 19px;
-    }
+.seccion-proyectos .div-titulo .div-h2 h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #c70039;
 }
 
-@media screen and (max-width: 320px){
-    .div-general-texto .div-texto-centro .div-nombre h1{
-        font-size: 30px;
-    }
+.seccion-proyectos .div-titulo .div-h2 h2:last-child{
+    color: #fff;
+}
 
-    .div-general-texto .div-texto-centro .div-animacion{
-        font-size: 15px;
-    }
-    
-    .div-general-texto .div-texto-centro .div-animacion .oficio{
-        font-size: 15px;
-    }
+
+.seccion-proyectos .div-general-imagen{
+    display: flex;
+    height: auto;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+.seccion-proyectos .div-general-imagen .div-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+}
+
+.seccion-proyectos .div-general-imagen .div-imagen img{
+    width: 100%;
+}
+
+.seccion-proyectos .div-general-texto{
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+.seccion-proyectos .div-general-texto .div-tarjeta{
+    position: absolute;
+    width: 45%;
+    height: 300px;
+    margin-left: -3%;
+    margin-top: 10%;
+    background-color: #191919;
+}
+
+.seccion-proyectos .div-general-texto .div-tarjeta h3{
+    font-family: 'Poppins', sans-serif;
+    color: #c70039;
+    font-size: 40px;
+    margin-top: 6%;
+    margin-left: 6%;
+}
+
+.seccion-proyectos .div-general-texto .div-tarjeta p{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 4%;
+    margin-left: 6%;
 }
