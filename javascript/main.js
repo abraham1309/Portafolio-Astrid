@@ -7,3 +7,11 @@ $(".navbar-nav li a").click(function(event) {
     if (!$(this).parent().hasClass('dropdown'))
         $(".navbar-collapse").collapse('hide');
 });
+
+//Metodo para copiar al postapapeles
+function copiar(){
+    var input=document.querySelector('#InputCorreo');
+    input.select();
+    document.execCommand("copy");
+}
+document.querySelector("#btnCopiar").addEventListener("click", copiar);

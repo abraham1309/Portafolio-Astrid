@@ -55,7 +55,6 @@
     .seccion-sobre-mi{
         height: auto;
     }
-    
 
     .seccion-sobre-mi .div-general-img .div-imagen{
         display: flex;
@@ -73,8 +72,17 @@
     .seccion-sobre-mi .div-general-text .div-titulo{
         display: flex;
         width: 80%;
-        margin-top: 10%;
-        margin-bottom: 5%;
+        margin-top: 15%;
+    }
+
+    /*Responsive de seccion de servicios*/
+    .seccion-servicios .div-titulo .div-h2{
+        padding-top: 17%;
+    }
+
+    /*Responsive de seccion de proyectos*/
+    .seccion-proyectos .div-titulo .div-h2{
+        padding-top: 17%;
     }
 }
 
@@ -102,6 +110,23 @@
     .seccion-proyectos .div-general-texto .div-tarjeta p{
         font-size: 17px;
     }  
+    /*Responsive para las letras de la seccion de contacto*/
+    
+    .seccion-contacto .div-titulo .div-h2 h2{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .seccion-contacto .div-icon a{
+        font-size: 50px;
+    }
+
+
+    footer .div-footer h6{
+        font-size: 15px;
+    }
+    
 }
 
 @media screen and (max-width: 400px){

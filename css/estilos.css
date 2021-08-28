@@ -379,6 +379,125 @@ ul li.activo a{
     font-family: 'Roboto', sans-serif;
     color: #fff;
     font-size: 20px;
+    text-align: justify;
+    width: 89%;
     margin-top: 4%;
     margin-left: 6%;
+}
+
+/*Estilos para la seccion de contacto*/
+.seccion-contacto{
+    background-color: #000;
+    height: auto;
+    padding-bottom: 10%;
+}
+
+.seccion-contacto .div-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-bottom: 6%;
+}
+
+.seccion-contacto .div-titulo .div-h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6%;
+}
+
+.seccion-contacto .div-titulo .div-h2 h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #c70039;
+}
+
+.seccion-contacto .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-contacto .div-icon{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seccion-contacto .div-icon a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+    transition: all .4s;
+    text-decoration: none;
+    font-size: 60px;
+}
+
+.seccion-contacto .div-icon .fa-facebook-f{
+    color: #0E34A0;
+    filter: drop-shadow(0px 0px 10px #0E34A0);
+}
+
+.seccion-contacto .div-icon .fa-instagram{
+    color: #750D37;
+    filter: drop-shadow(0px 0px 10px #750D37);
+}
+
+.seccion-contacto .div-icon .fa-whatsapp{
+    color: #04F06A;
+    filter: drop-shadow(0px 0px 10px #04F06A);
+}
+
+.seccion-contacto .div-icon .fa-envelope{
+    color: #EA4335;
+    filter: drop-shadow(0px 0px 10px #EA4335);
+}
+
+.seccion-contacto .a-fb:hover{
+   box-shadow: 0px 0px 50px #0E34A0;
+}
+
+.seccion-contacto .a-ins:hover{
+   box-shadow: 0px 0px 50px #750D37;
+}
+
+.seccion-contacto .a-whats:hover{
+   box-shadow: 0px 0px 30px #04F06A;
+}
+
+.seccion-contacto .a-gmail:hover{
+   box-shadow: 0px 0px 30px #EA4335;
+}
+
+/*Diseño para el footer*/
+footer{
+    width: 100vw;
+    height: 125px;
+    background-color: #191919;
+}
+
+footer .div-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+}
+
+footer .div-footer h6{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer .div-footer h6 a{
+    color: #c70039;
+    text-decoration-color: #c70039;
 }
