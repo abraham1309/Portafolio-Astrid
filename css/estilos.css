@@ -16,9 +16,9 @@ body{
     font-size: 20px !important;
 }
 
-ul li.activo a{
+ul li .activo{
     color: #fff !important;
-    background-color: #c70039;
+    border-bottom: 2px solid #c70039;
 }
 
 /*Estilos para el inicio*/
@@ -28,7 +28,6 @@ ul li.activo a{
     width: 100vw;
     z-index: -5;
     background-color: #000;
-    background-attachment: fixed;
 }
 
 .div-general-foto{
@@ -61,6 +60,7 @@ ul li.activo a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
 }
 
 .div-general-texto .div-redes, .div-texto-centro, .div-contacto{
