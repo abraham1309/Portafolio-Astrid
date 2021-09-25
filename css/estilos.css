@@ -249,7 +249,7 @@ ul li .activo{
     align-items: center;
     flex-direction: column;
     width: 85%;
-    height: 400px;
+    height: 450px;
     margin-top: 5%;
     background-color: #191919;
     border-radius: 15px;
@@ -272,7 +272,7 @@ ul li .activo{
 }
 
 .seccion-servicios .div-general-servicio .div-servicio .div-icon i{
-    font-size: 60px;
+    font-size: 55px;
     color: #fff;
     z-index: 1;
 }
@@ -399,7 +399,7 @@ ul li .activo{
     color: #fff;
     font-family: 'Jost', sans-serif;
     font-size: 20px;
-    transition: 0.5s ease-out 0.1s;
+    transition: 0.5s ease-out 0.01s;
 }
 
 .seccion-proyectos .div-general-texto .div-tarjeta .btn-proyecto-a{
@@ -415,7 +415,7 @@ ul li .activo{
     color: #fff;
     font-family: 'Jost', sans-serif;
     font-size: 20px;
-    transition: 0.5s ease-out 0.1s;
+    transition: 0.5s ease-out 0.01s;
     text-decoration: none;
 }
 
