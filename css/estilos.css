@@ -473,7 +473,6 @@ ul li .activo {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    overflow: hidden;
 }
 
 .seccion-contacto .div-icon a {
