@@ -196,7 +196,7 @@ ul li .activo {
 
 .seccion-sobre-mi .div-general-img .div-fondo-imagen {
     height: 100vh;
-    background: url(../imagenes/Astrid\ Jahdai\ Torres\ Medina\ sobre\ mi.jpeg);
+    background: url(../imagenes/imagen\ demostracion.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -356,8 +356,9 @@ ul li .activo {
     height: 90%;
 }
 
-.seccion-proyectos .div-general-imagen .div-imagen img {
+.seccion-proyectos .div-general-imagen .div-imagen .modelo-3d {
     width: 100%;
+    height: 400px;
 }
 
 .seccion-proyectos .div-general-texto {
